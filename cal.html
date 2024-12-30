@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Calculator</title>
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/11597/11597995.png" type="image/x-icon">
+    <link rel="stylesheet" href="./cal.css">
+</head>
+<body>
+    
+    
+   <div id="id">
+    <p>0</p>
+    <div class="div">
+    <button id="ca" onclick="validate('7')">7</button>
+    <button id="ca" onclick="validate('8')">8</button>
+    <button id="ca" onclick="validate('9')">9</button>
+    <button id="cb" onclick="validate('%')">%</button>
+    </div>
+    <div>
+    <button id="ca" onclick="validate('4')">4</button>
+    <button id="ca" onclick="validate('5')">5</button>
+    <button id="ca" onclick="validate('6')">6</button>
+    <button id="cb" onclick="validate('/')">/</button>
+    </div>
+    <div>
+    <button id="ca" onclick="validate('1')">1</button>
+    <button id="ca" onclick="validate('2')">2</button>
+    <button id="ca" onclick="validate('3')">3</button>
+    <button id="cb" onclick="validate('*')">*</button>
+    </div>
+    <div>
+    <button id="ca" onclick="validate('0')">0</button>
+    <button id="ca" onclick="validate('.')" >.</button>
+    <button id="cb" onclick="validate('-')" >-</button>
+    <button id="cb" onclick="validate('+')" >+</button>
+   </div>
+    <div>
+    <button id="cd" onclick="vanish()">c</button>
+    <button id="cc" onclick="getResult()">=</button>
+    </div>
+   </div>
+
+
+    <script src="./cal.js"> </script>
+</body>
+</html>
